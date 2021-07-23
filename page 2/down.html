@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<style>
+	#box {
+  padding: 10px;
+
+  border: 1px solid black;
+  margin: 50px;
+  width: 60%;
+  height: auto;
+  overflow: auto;
+}
+#content {
+  float: right;
+  position: relative;
+
+}
+
+.fbox4 {
+  overflow: hidden;
+  position: relative;
+  background: #e2e2ff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 40%;
+  margin-top: 10px;
+}
+
+#box2 {
+  padding: 10px;
+  border: 1px solid black;
+  margin: 50px;
+  width: 60%;
+  height: auto;
+  overflow: auto;
+}
+#rows {
+  overflow: hidden;
+  position: relative;
+  background: #e2e2ff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+  width: 100%;
+}
+.checked {
+  color: orange;
+}
+</style>
+<body>
+	<div id="box">
+  <div>
+    <img src="linkedin.jpg" style="height:70px;width: auto;">
+    <h3 style="display: inline;">LinkedIn</h3>
+    <h4 style="float: right;color: blue;">Website: www.nike.com</h4>
+  </div>
+  <h4 style="font-weight: 700;">Recent Posts</h4>
+  <div>
+    <ol>
+      <li class="fbox4">  Published on on 08/06/2021<br>https://www.linkedin.com/posts/nike_announcing-fast-companys-second-annual-queer-activity-6806263133800423424-AakW</li>
+        <span id="content">
+      123
+        </span>
+
+    
+      <li class="fbox4">    Published on on 05/06/2021<br>https://www.linkedin.com/posts/nike_following-play-academys-expansion-and-the-activity-6800106148440760321-h46A
+</li>
+    <p>
+      123
+    </p>
+      <li class="fbox4">  Published on on 01/06/2021<br>https://www.linkedin.com/posts/nike_as-the-historic-25thseason-of-the-wnba-activity-6799063104442499072-INDt
+      </li>
+    </ol>
+  </div>
+</div>
+
+<br><br>
+<div id="box2">
+  <img src="google.png" style="height:70px;width: auto;">
+  <h3 style="display: inline;">Google Reviews</h3>
+  <h4 style="float: right;color: blue;">Website: www.nike.com</h4>
+  <div id="rows">
+    Ratings
+    <span style="font-size: 30px;float: right;margin-left:10px ;">4/5</span>
+    <span class="fa fa-star" style="float:right;"></span>
+    <span class="fa fa-star" style="float:right;"></span>
+    <span class="fa fa-star checked" style="float:right;"></span>
+    <span class="fa fa-star checked" style="float:right;"></span>
+    <span class="fa fa-star checked" style="float:right;"></span>
+  </div>
+  <div style="margin-top:10px">
+    <span style="float:left;font-size: 30px;margin-left: 10px;">Number of Reviews</span>
+    <span style="float:right;font-size: 30px;margin-right: 10px;">19</span>
+  </div>
+  <br>
+  <div id="rows">
+    People often mention
+    <span style="float:right;font-size: 30px;margin-right: 10px;">Work (9)</span>
+  </div>
+</div>
+</body>
+</html>
